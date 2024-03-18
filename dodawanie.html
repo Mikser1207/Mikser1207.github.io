@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zagadki matematyczne</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="losuj1(),zegarek()">
+    <h1>Zagadki matematyczne</h1>
+    <nav>
+        <a href="index.html">Strona główna</a>
+        <a href="dodac_odjac.html">Dodawanie i odejmowanie do 100</a>
+        <a href="mnoz_dziel.html">Mnożenie i dzielenie do 100</a>
+        <a href="rzymskie.html">Liczby rzymskie na arabskie do 100</a>
+        <a href="sort.html">Uporządkuj liczby do 100</a>
+    </nav>
+
+    <div class="dodawanie">
+        <h2>DODAWANIE W ZAKRESIE 100</h2>
+        
+        <p id="a"></p>
+        <p id="b"></p>
+        <input type="number" id="d"> <br>
+        
+        <input type="button" value="Sprawdź" onclick="sprawdz1()"> <br>
+        <input type="button" value="Następne" onclick="losuj1()"><br>
+    </div>
+    <footer>Strone wykonali: Mateusz Węgrzyn x Kamil Król
+        <p id="timer" class="zegar">
+    </footer>
+</body>
+
+</html>
+
